@@ -36,15 +36,8 @@ export const Header = () => {
 						Your Brand's Perfect Packaging
 					</span>
 					<br />
-					<ColoredLetters>De</ColoredLetters>
-					<span>sign,</span>
-					<ColoredLetters>Custo</ColoredLetters>
-					<span>mize ,</span>
-					<ColoredLetters>Ord</ColoredLetters>
-					<span>er &</span>
-					<br />
-					<ColoredLetters>Tra</ColoredLetters>
-					<span>ck</span>
+					<ColoredLetters>Design, Customize, Order & <br /> Track </ColoredLetters>
+					
 				</Title>
 				<HeaderText>
 					<span className="br-span">
@@ -60,11 +53,11 @@ export const Header = () => {
 					<span>detailed QR code analytics</span>
 				</HeaderText>
 				<HeaderCTA>
-					<CreateDesignBtn onClick={handleToggleWaitlistModal}>
-						Create My Own Design
-					</CreateDesignBtn>
+					{/* <CreateDesignBtn onClick={handleToggleWaitlistModal}>
+						Your email address
+					</CreateDesignBtn> */}
 					<ExploreTemplateBtn onClick={handleToggleWaitlistModal}>
-						Explore Templates
+						Join Our Waitlist
 					</ExploreTemplateBtn>
 				</HeaderCTA>
 			</Wrapper>
